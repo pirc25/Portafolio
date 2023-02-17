@@ -19,7 +19,18 @@ h1 {
   align-self: center;
   justify-content: center;
   margin: 6px 24px;
-  font-family: 'crete round', sans-serif;
+  font-family: 'Crete round', sans-serif;
+  line-height: 64px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  padding-top: 5px;
 }
 
 .toolbar {
@@ -56,6 +67,7 @@ h1 {
 .headline h3 {
   margin: 6px 24px;
   font-size: 24px;
+  font-weight: 700;
   font-family: "Roboto", sans-serif;
 }
 
@@ -64,12 +76,19 @@ h1 {
   font-size: 16px;
   width: 65%;
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .social-network {
   display: flex;
   flex-direction: row;
   margin: 6px 24px;
+}
+
+.social-network ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
 
 .social {
